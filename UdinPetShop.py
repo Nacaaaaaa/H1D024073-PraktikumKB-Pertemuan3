@@ -47,10 +47,10 @@ engine = ctrl.ControlSystem([aturan1, aturan2, aturan3, aturan4, aturan5, aturan
 system = ctrl.ControlSystemSimulation(engine)
 
 # Simulasi Perhitungan Sistem
-system.input['barang_terjual'] = 80 #input_barang
-system.input['permintaan'] = 255 #input_permintaan
-system.input['harga_per_item'] = 25000 #input_harga
-system.input['profit'] = 3500000 #input_profit
+system.input['barang_terjual'] = 80
+system.input['permintaan'] = 255
+system.input['harga_per_item'] = 25000
+system.input['profit'] = 3500000
 system.compute()
 
 # Output
